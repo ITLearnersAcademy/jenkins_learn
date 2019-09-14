@@ -1,0 +1,19 @@
+pipeline {
+			agent any
+			stages {
+				stage ("Hello!") {
+					steps {
+						echo "Hello, World!"
+						echo "Hope you are doing great!"
+						}
+				}
+				stage ("Bye!") {
+					steps {
+						sh '''
+							echo "Bye, World!"
+							echo "Hope you responded back with Bye!"
+						'''
+					}
+				}
+			}
+}
