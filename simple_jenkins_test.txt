@@ -5,7 +5,13 @@ pipeline {
 					steps {
 						echo "Hello, World!"
 						echo "Hope you are doing great!"
-						}
+					}
+				}
+				stage ("Task!") {
+					steps {
+						echo "Now, we have exchanged greetings!"
+						echo "Here is Task1 for you to complete!"
+					}
 				}
 				stage ("Bye!") {
 					steps {
