@@ -7,10 +7,10 @@ pipeline {
 						echo "Hope you are doing great!"
 					}
 				}
-				stage ("Task!") {
+				stage ("Task2!") {
 					steps {
 						echo "Now, we have exchanged greetings!"
-						echo "Here is Task1 for you to complete!"
+						echo "Here is Task2 for you to complete!"
 					}
 				}
 				stage ("Bye!") {
